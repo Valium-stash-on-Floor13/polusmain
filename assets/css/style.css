@@ -265,6 +265,13 @@ label {
   padding-top: 4.375rem;
   padding-bottom: 4.375rem;
 }
+@media screen and (max-width: 992px){
+ ul.navbar-nav.menu .nav-item.dropdown:hover > ul.dropdown-menu{
+   display: block!important;
+  box-shadow: 0 0 5px 0.6px rgba(0,0,0,0.3);
+  border-radius: 5px;
+  
+ }
 @media screen and (min-width: 992px) {
   .section-padding-xl {
     padding-top: 8.75rem;
